@@ -1,19 +1,5 @@
-<html lang="pt-BR">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-	<style type='text/css'>
-	.embeddedServiceHelpButton .helpButton .uiButton {
-		background-color: #005290;
-		font-family: "Arial", sans-serif;
-	}
-	.embeddedServiceHelpButton .helpButton .uiButton:focus {
-		outline: 1px solid #005290;
-	}
-</style>
-  </head>
-  <body>
-
+<?php
+echo<<<HTML
 <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
 <script type='text/javascript'>
 	var initESW = function(gslbBaseURL) {
@@ -66,5 +52,5 @@
 		initESW('https://service.force.com');
 	}
 </script>
-  </body>
-</html>
+HTML;
+?>
