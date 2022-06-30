@@ -25,17 +25,17 @@ echo<<<HTML
 		embedded_svc.settings.entryFeature = 'LiveAgent';
 
 		embedded_svc.init(
-			'https://mongeralaegon--rel.my.salesforce.com',
-			'https://rel-plataformadeprodutores.cs36.force.com/susep',
+			'https://mongeralaegon--magdev.my.salesforce.com',
+			'https://magdev-plataformadeprodutores.cs218.force.com/parceiros',
 			gslbBaseURL,
-			'00D2h0000000xYK',
-			'Simple2u',
+			'00D8F0000004XAb',
+			'suporte_N2',
 			{
-				baseLiveAgentContentURL: 'https://c.la3-c1cs-ph2.salesforceliveagent.com/content',
-				deploymentId: '5720S00000001vm',
-				buttonId: '5737h0000004FLh',
-				baseLiveAgentURL: 'https://d.la3-c1cs-ph2.salesforceliveagent.com/chat',
-				eswLiveAgentDevName: 'Simple2u',
+				baseLiveAgentContentURL: 'https://c.la5-c1cs-ia5.salesforceliveagent.com/content',
+				deploymentId: '5723o000001HinK',
+				buttonId: '5738F000000002G',
+				baseLiveAgentURL: 'https://d.la5-c1cs-ia5.salesforceliveagent.com/chat',
+				eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I8F000000001TUAQ_180af2751f0',
 				isOfflineSupportEnabled: false
 			}
 		);
@@ -43,7 +43,7 @@ echo<<<HTML
 
 	if (!window.embedded_svc) {
 		var s = document.createElement('script');
-		s.setAttribute('src', 'https://mongeralaegon--rel.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+		s.setAttribute('src', 'https://mongeralaegon--magdev.my.salesforce.com/embeddedservice/5.0/esw.min.js');
 		s.onload = function() {
 			initESW(null);
 		};
