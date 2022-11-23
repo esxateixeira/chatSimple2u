@@ -14,7 +14,6 @@ echo<<<HTML
     var initESW = function(gslbBaseURL) {
         embedded_svc.settings.displayHelpButton = true; //Ou falso
         embedded_svc.settings.language = ''; //Por exemplo, insira "pt" ou "pt-BR"
-       //embedded_svc.settings.defaultMinimizedText = '...'; //(Assume como padrão o Chat com um especialista)
         //embedded_svc.settings.disabledMinimizedText = '...'; //(Assume como padrão Agente off-line)
        //embedded_svc.settings.loadingText = ''; //(Assume como padrão Carregando)
         //embedded_svc.settings.storageDomain = 'yourdomain.com'; //(Define o domínio de sua implantação para que seus visitantes possam navegar em subdomínios durante uma sessão de chat)
